@@ -1,0 +1,44 @@
+body {
+    background-image: url(fondo_pagina.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    color: darkorange;
+}
+
+#input_monedas {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    width: 100%;
+}
+
+#cambio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    min-height: 140px;
+    border-style: dashed;
+}
+
+#cambio img {
+    object-fit: contain;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
